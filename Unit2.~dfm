@@ -1,0 +1,124 @@
+object Form2: TForm2
+  Left = 603
+  Top = 128
+  Width = 529
+  Height = 424
+  Caption = 'Kodo redaktorius'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  OnClose = FormClose
+  DesignSize = (
+    521
+    378)
+  PixelsPerInch = 96
+  TextHeight = 13
+  object RichEdit1: TRichEdit
+    Left = 0
+    Top = 0
+    Width = 521
+    Height = 377
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'System'
+    Font.Style = [fsBold]
+    ParentFont = False
+    ScrollBars = ssBoth
+    TabOrder = 0
+    OnChange = RichEdit1Change
+  end
+  object MainMenu1: TMainMenu
+    Left = 472
+    Top = 16
+    object Failas1: TMenuItem
+      Caption = '&Failas'
+      object Naujas1: TMenuItem
+        Caption = '&Naujas'
+        OnClick = Naujas1Click
+      end
+      object Atidaryti1: TMenuItem
+        Caption = '&Atidaryti'
+        OnClick = Atidaryti1Click
+      end
+      object Issaugoti1: TMenuItem
+        Caption = '&I'#1088'saugoti'
+        OnClick = Issaugoti1Click
+      end
+      object Issaugotikaip1: TMenuItem
+        Caption = 'I'#1088'saugoti &kaip'
+        OnClick = Issaugotikaip1Click
+      end
+      object N2: TMenuItem
+        Caption = '-'
+      end
+      object Spausdinti2: TMenuItem
+        Caption = '&Spausdinti'
+        Enabled = False
+        OnClick = Spausdinti2Click
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object Uzdaryti1: TMenuItem
+        Caption = 'U'#1102'daryti'
+        OnClick = Uzdaryti1Click
+      end
+    end
+    object Redagavimas1: TMenuItem
+      Caption = 'Redagavimas'
+      object Ieskoti1: TMenuItem
+        Caption = '&Ie'#1088'koti'
+        OnClick = Ieskoti1Click
+      end
+    end
+    object Kompiliavimas1: TMenuItem
+      Caption = '&Kompiliavimas'
+      object Kompiliuoti1: TMenuItem
+        Caption = '&Kompiliuoti'
+        OnClick = Kompiliuoti1Click
+      end
+      object Kompiliuotiirikrauti1: TMenuItem
+        Caption = 'Kompiliuoti ir &'#1073'krauti'
+        OnClick = Kompiliuotiirikrauti1Click
+      end
+      object Kompiliuotiiri1: TMenuItem
+        Caption = 'Kompiliuoti ir i'#1088'saugoti  .dt formatu'
+        OnClick = Kompiliuotiiri1Click
+      end
+    end
+    object Pagalba1: TMenuItem
+      Caption = '&Pagalba'
+      OnClick = Pagalba1Click
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 240
+    Top = 16
+  end
+  object SaveDialog1: TSaveDialog
+    Left = 272
+    Top = 16
+  end
+  object PrintDialog1: TPrintDialog
+    Left = 304
+    Top = 16
+  end
+  object PrinterSetupDialog1: TPrinterSetupDialog
+    Left = 336
+    Top = 16
+  end
+  object FindDialog1: TFindDialog
+    OnShow = FindDialog1Show
+    OnFind = FindDialog1Find
+    Left = 368
+    Top = 16
+  end
+end

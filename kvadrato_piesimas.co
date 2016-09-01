@@ -1,0 +1,45 @@
+[!8086SIMULATORCOMPILEDFILE!]
+[STACK-2000 ]
+[DATA -1000 ]
+[00000-00001] B0 10; mov al,10h
+[00002-00003] B4 12; mov ah,12h
+[00004-00005] B3 30; mov bl,30h
+[00006-00007] B7 3F; mov bh,3fh
+[00008-00008] 53; push bx
+[00009-00009] 50; push ax
+[0000A-0000B] 88 D9; mov cl,bl
+[0000C-0000D] 28 C1; sub cl,al
+[0000E-0000E] 51; push cx
+[0000F-00010] B7 00; mov bh,00h
+[00011-00012] 88 E3; mov bl,ah
+[00013-00015] B8 40 01; mov ax,0140h
+[00016-00017] F7 E3; mulw bx
+[00018-00018] 5A; pop dx
+[00019-00019] 5B; pop bx
+[0001A-0001A] 53; push bx
+[0001B-0001C] B7 00; mov bh,00h
+[0001D-0001E] 01 D8; add ax,bx
+[0001F-00020] 89 C6; mov si,ax
+[00021-00023] C6 04 FF; mov [si],FFh
+[00024-00024] 46; incw si
+[00025-00026] E2 FC; loop zyme1
+[00027-00027] 5B; pop bx
+[00028-00028] 59; pop cx
+[00029-00029] 51; push cx
+[0002A-0002A] 53; push bx
+[0002B-0002C] 88 E9; mov cl,ch
+[0002D-0002E] B5 00; mov ch,00h
+[0002F-00030] 28 F9; sub cl,bh
+[00031-00032] 88 CE; mov dh,cl
+[00033-00035] C6 04 FF; mov [si],FFh
+[00036-00039] 81 C6 40 01; add si,0140h
+[0003A-0003B] E2 F9; loop zyme2
+[0003C-0003D] 88 D1; mov cl,dl
+[0003E-00040] C6 04 FF; mov [si],FFh
+[00041-00041] 4E; decw si
+[00042-00043] E2 FC; loop zyme3
+[00044-00045] 88 F1; mov cl,dh
+[00046-00048] C6 04 FF; mov [si],FFh
+[00049-0004C] 81 EE 40 01; sub si,0140h
+[0004D-0004E] E2 F9; loop zyme4
+[0004F-0004F] F4; hlt

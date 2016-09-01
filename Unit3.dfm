@@ -1,0 +1,308 @@
+object Form3: TForm3
+  Left = 947
+  Top = 318
+  BorderStyle = bsToolWindow
+  Caption = 'Keisti registro reik'#353'm'#281
+  ClientHeight = 120
+  ClientWidth = 216
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 32
+    Width = 22
+    Height = 13
+    Caption = 'Hex:'
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 8
+    Width = 18
+    Height = 13
+    Caption = 'Bin:'
+  end
+  object Label3: TLabel
+    Left = 8
+    Top = 56
+    Width = 23
+    Height = 13
+    Caption = 'Dec:'
+  end
+  object StaticText1: TStaticText
+    Left = 40
+    Top = 32
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 0
+    OnClick = StaticText1Click
+  end
+  object StaticText2: TStaticText
+    Left = 48
+    Top = 32
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 1
+    OnClick = StaticText2Click
+  end
+  object StaticText3: TStaticText
+    Left = 64
+    Top = 32
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 2
+    OnClick = StaticText3Click
+  end
+  object StaticText4: TStaticText
+    Left = 72
+    Top = 32
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 3
+    OnClick = StaticText4Click
+  end
+  object StaticText5: TStaticText
+    Left = 40
+    Top = 56
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 4
+    OnClick = StaticText5Click
+  end
+  object StaticText6: TStaticText
+    Left = 48
+    Top = 56
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 5
+    OnClick = StaticText6Click
+  end
+  object StaticText7: TStaticText
+    Left = 56
+    Top = 56
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 6
+    OnClick = StaticText7Click
+  end
+  object StaticText8: TStaticText
+    Left = 40
+    Top = 8
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 7
+    OnClick = StaticText8Click
+  end
+  object StaticText9: TStaticText
+    Left = 48
+    Top = 8
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 8
+    OnClick = StaticText9Click
+  end
+  object StaticText10: TStaticText
+    Left = 56
+    Top = 8
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 9
+    OnClick = StaticText10Click
+  end
+  object StaticText11: TStaticText
+    Left = 64
+    Top = 8
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 10
+    OnClick = StaticText11Click
+  end
+  object StaticText12: TStaticText
+    Left = 80
+    Top = 8
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 11
+    OnClick = StaticText12Click
+  end
+  object StaticText13: TStaticText
+    Left = 88
+    Top = 8
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 12
+    OnClick = StaticText13Click
+  end
+  object StaticText14: TStaticText
+    Left = 96
+    Top = 8
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 13
+    OnClick = StaticText14Click
+  end
+  object StaticText15: TStaticText
+    Left = 104
+    Top = 8
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 14
+    OnClick = StaticText15Click
+  end
+  object StaticText16: TStaticText
+    Left = 128
+    Top = 8
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 15
+    OnClick = StaticText16Click
+  end
+  object StaticText17: TStaticText
+    Left = 136
+    Top = 8
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 16
+    OnClick = StaticText17Click
+  end
+  object StaticText18: TStaticText
+    Left = 144
+    Top = 8
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 17
+    OnClick = StaticText18Click
+  end
+  object StaticText19: TStaticText
+    Left = 152
+    Top = 8
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 18
+    OnClick = StaticText19Click
+  end
+  object StaticText20: TStaticText
+    Left = 168
+    Top = 8
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 19
+    OnClick = StaticText20Click
+  end
+  object StaticText21: TStaticText
+    Left = 176
+    Top = 8
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 20
+    OnClick = StaticText21Click
+  end
+  object StaticText22: TStaticText
+    Left = 184
+    Top = 8
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 21
+    OnClick = StaticText22Click
+  end
+  object StaticText23: TStaticText
+    Left = 192
+    Top = 8
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 22
+    OnClick = StaticText23Click
+  end
+  object Button1: TButton
+    Left = 128
+    Top = 88
+    Width = 73
+    Height = 25
+    Caption = 'Keisti'
+    TabOrder = 23
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 16
+    Top = 88
+    Width = 73
+    Height = 25
+    Caption = 'At'#353'aukti'
+    TabOrder = 24
+    OnClick = Button2Click
+  end
+  object StaticText24: TStaticText
+    Left = 64
+    Top = 56
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 25
+    OnClick = StaticText24Click
+  end
+  object StaticText25: TStaticText
+    Left = 72
+    Top = 56
+    Width = 10
+    Height = 17
+    BorderStyle = sbsSunken
+    Caption = '0'
+    TabOrder = 26
+    OnClick = StaticText25Click
+  end
+end
